@@ -1,0 +1,39 @@
+ [
+    {
+        "id":1,
+        "cover":"/img/aloneagain1.jpg",
+        "titleGallery":"alone",
+        "pictures": ["/img/aloneagain1.jpg", "/img/alone3.jpg"
+
+        ]
+
+    },
+    {
+        "id":2,
+        "cover":"/img/flou2.jpg",
+        "titleGallery":"flou",
+        "pictures": ["/img/flou2.jpg","/img/flou1.jpg"
+            
+        ]
+
+    },
+    {
+        "id":3,
+        "cover":"/img/refuge1.jpg",
+        "titleGallery":"refuge",
+        "pictures": ["/img/refuge1.jpg","/img/refuge2.jpg"
+            
+        ]
+
+    },
+    
+    {
+        "id":4,
+        "cover":"/img/plante2.jpg",
+        "titleGallery":"plants",
+        "pictures": ["/img/plante2/jpg","/img/plante1.jpg","/img/plantes4.jpg"
+            
+        ]
+
+    }
+]
