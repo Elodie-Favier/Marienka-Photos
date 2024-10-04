@@ -3,7 +3,7 @@
         "id":1,
         "cover":"/img/aloneagain1.jpg",
         "titleGallery":"alone",
-        "pictures": ["/img/aloneagain1.jpg", "/img/alone3.jpg"
+        "pictures": ["/img/alone1.jpg", "/img/alone2.png"
 
         ]
 
@@ -31,7 +31,7 @@
         "id":4,
         "cover":"/img/plante2.jpg",
         "titleGallery":"plants",
-        "pictures": ["/img/plante2/jpg","/img/plante1.jpg","/img/plantes4.jpg"
+        "pictures": ["/img/plante2.jpg","/img/plante1.jpg","/img/plante4.jpg"
             
         ]
 
