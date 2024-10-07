@@ -21,7 +21,7 @@
         "id":3,
         "cover":"/img/refuge1.jpg",
         "titleGallery":"refuge",
-        "pictures": ["/img/refuge1.jpg","/img/refuge2.jpg"
+        "pictures": ["/img/refuge1.jpg","/img/refuge2.jpg","/img/refuge4.jpg","/img/refuge3.jpg"
             
         ]
 
@@ -32,6 +32,56 @@
         "cover":"/img/plante2.jpg",
         "titleGallery":"plants",
         "pictures": ["/img/plante2.jpg","/img/plante1.jpg","/img/plante4.jpg"
+            
+        ]
+
+    },
+    
+    {
+        "id":5,
+        "cover":"/img/vartisits2.jpg",
+        "titleGallery":"various artists",
+        "pictures": ["/img/vartists2.jpg","/img/vartists1.jpg","/img/vartists3.jpg"
+            
+        ]
+
+    },
+    
+    {
+        "id":6,
+        "cover":"/img/vehicule2.jpg",
+        "titleGallery":"véhicules",
+        "pictures": ["/img/vehicule1.jpg","/img/vehicule2.jpg","/img/vehicule3.jpg"
+            
+        ]
+
+    },
+    
+    {
+        "id":7,
+        "cover":"/img/natureenville2.jpg",
+        "titleGallery":"nature en ville",
+        "pictures": ["/img/natureenville2.jpg","/img/natureenville1.jpg","/img/natureenville3.jpg"
+            
+        ]
+
+    },
+    
+    {
+        "id":8,
+        "cover":"/img/message2.jpg",
+        "titleGallery":"message",
+        "pictures": ["/img/message2.jpg","/img/message1.jpg"
+            
+        ]
+
+    },
+    
+    {
+        "id":9,
+        "cover":"/img/bazar1.jpg",
+        "titleGallery":"bazar",
+        "pictures": ["/img/bazar2.jpg","/img/bazar1.jpg"
             
         ]
 
