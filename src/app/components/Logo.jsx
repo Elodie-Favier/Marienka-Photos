@@ -9,7 +9,7 @@ const sofadiOne = Sofadi_One ({
 
 export default function Logo() {
     return (
-   <div className="Logo-Title text-center bg-green-200 m-4 text-6xl">
+   <div className="text-center m-4 text-6xl md:text-8xl">
 <h1 className={sofadiOne.className}>Mari<span  className="text-red-600">e</span>nka</h1>
    </div>
       

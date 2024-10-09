@@ -11,9 +11,9 @@ if ({params} )
  return (
  <>
  <section className="mx-auto mt-8 min-w-96 flex flex-col justify-center">
- <h2 className="text-2xl ml-5 mb-5">Gallerie {data[params.id -1].titleGallery}</h2>
+ <h2 className="bg-yellow-300 text-center text-2xl mt-5 mb-5 sm:text-3xl sm:mb-9">Gallerie <i>"{data[params.id -1].titleGallery}"</i></h2>
 
-<div className="flex flex-col justify-center md:flex-row md:flex-wrap bg-pink-500 flex-wrap md:justify-around">
+<div className="flex flex-col justify-center md:flex-row md:flex-wrap flex-wrap md:justify-around">
 
 {data[params.id -1].pictures.map((pic) => (
     <Image 

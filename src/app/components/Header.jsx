@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 
 export default function Header() {
     return (
-        <div className="">
+        <div className="sm:mt-10 ">
    <Logo />
    <NavBar />
    </div>

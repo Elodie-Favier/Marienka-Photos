@@ -47,7 +47,7 @@
             "photo":"/img/refuge2.jpg"
             },
             {
-            "styles":"m-5 rounded-xl w-[500px] h-[350px]",
+            "styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
             "photo":"/img/refuge3.jpg"
             },
              {
@@ -66,12 +66,8 @@
     {
         "id":4,
         "cover":"/img/plante2.jpg",
-        "titleGallery":"plants",
+        "titleGallery":"plantes",
         "pictures": [
-            {
-            "styles":"m-5 rounded-xl w-[350px] h-[500px]",
-            "photo":"/img/plante4.jpg"
-            },
             {
             "styles":"m-5 rounded-xl w-[350px] h-[500px]",
             "photo":"/img/plante1.jpg"
@@ -88,11 +84,11 @@
         "titleGallery":"véhicules",
         "pictures": [
             {
-               "styles":"m-5 rounded-xl w-[500px] h-[350px]",
+               "styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
             "photo": "/img/vehicule1.jpg"
             },
             {
-                "styles":"m-5 rounded-xl w-[500px] h-[350px]",
+                "styles":"m-5 rounded-xl w-[350px]  h-[350px] md:w-[500px]",
             "photo":"/img/vehicule2.jpg"
             },
             {
@@ -108,12 +104,16 @@
         "cover":"/img/natureenville2.jpg",
         "titleGallery":"nature en ville",
         "pictures": [
-            {"styles":"m-5 rounded-xl w-[500px] h-[350px]",
+            {"styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
             "photo":"/img/natureenville3.jpg"
             },
-            {"styles":"m-5 rounded-xl w-[500px] h-[350px]",
+            {"styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
             "photo":"/img/natureenville2.jpg"
-            }  
+            },
+            {
+                "styles":"m-5 rounded-xl w-[350px] h-[500px]",
+                "photo":"/img/natureenville4.jpg"
+                }
         ]
 
     },
@@ -143,11 +143,11 @@
         "titleGallery":"bazar",
         "pictures": [
             {
-                "styles":"m-5 rounded-xl w-[500px] h-[350px]",
+                "styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
             "photo":"/img/bazar1.jpg"
             },
             {
-            "styles":"m-5 rounded-xl w-[500px] h-[350px]",
+            "styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
             "photo":"/img/bazar2.jpg"
             }
             
