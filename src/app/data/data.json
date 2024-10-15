@@ -1,24 +1,25 @@
  [
     {
         "id":1,
-        "cover":"/img/alone1.jpg",
+        "cover":"/img/alone4.jpg",
         "titleGallery":"alone",
     
-        "pictures": [{
-            "styles":"m-5 rounded-xl max-w-[350px] h-[350px] md:w-[500px]",
-            "photo":"/img/alone1.jpg"
-        },{
-            "styles":"m-5 rounded-xl max-w-[350px] h-[350px] md:w-[500px]",
-            "photo":"/img/alone1.jpg"
+        "pictures": [
+        {
+        "photo":"/img/alone2.png"
         },
         {
-            "styles":"m-5 rounded-xl  w-[350px] h-[500px]",
-            "photo":"/img/alone2.png"
-        },
+        "photo":"/img/alone3.jpg"
+        } ,
+        
         {
-            "styles":"m-5 rounded-xl w-[350px] h-[500px]",
-            "photo":"/img/alone2.png"
-        }  
+            
+        "photo":"/img/alone4.jpg"
+        } ,
+        {
+            
+        "photo":"/img/alone5.jpg"
+        } 
 
         ]
 
@@ -28,11 +29,23 @@
         "cover":"/img/flou2.jpg",
         "titleGallery":"flou",
         "pictures": [
-            {"styles":"m-5 rounded-xl  w-[350px] h-[500px]",
+            {
             "photo":"/img/flou1.jpg"
             },
-            {"styles":"m-5 rounded-xl  w-[350px] h-[500px]",
+            {
             "photo":"/img/flou2.jpg"
+            },
+            { 
+            "photo":"/img/flou3.jpg"
+            },
+            {
+            "photo":"/img/flou4.jpg"
+            },
+            { 
+            "photo":"/img/flou5.jpg"
+            },
+            { 
+            "photo":"/img/flou6.jpg"
             }
         ]
 
@@ -43,19 +56,19 @@
         "titleGallery":"refuge",
         "pictures": [
             {
-            "styles":"m-5 rounded-xl w-[350px] h-[500px]",
+            
             "photo":"/img/refuge2.jpg"
             },
             {
-            "styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
+            
             "photo":"/img/refuge3.jpg"
             },
              {
-            "styles":"m-5 rounded-xl w-[350px] h-[500px]",
+            
             "photo":"/img/refuge1.jpg"
             }, 
             {
-            "styles":"m-5 rounded-xl w-[350px] h-[500px]",
+            
             "photo":"/img/refuge4.jpg"
             }
         
@@ -69,11 +82,11 @@
         "titleGallery":"plantes",
         "pictures": [
             {
-            "styles":"m-5 rounded-xl w-[350px] h-[500px]",
+            
             "photo":"/img/plante1.jpg"
             },
             {
-            "styles":"m-5 rounded-xl w-[350px] h-[500px]",
+            
             "photo":"/img/plante2.jpg"
             }  
         ]
@@ -84,71 +97,40 @@
         "titleGallery":"véhicules",
         "pictures": [
             {
-               "styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
+            
             "photo": "/img/vehicule1.jpg"
             },
             {
-                "styles":"m-5 rounded-xl w-[350px]  h-[350px] md:w-[500px]",
+            
             "photo":"/img/vehicule2.jpg"
             },
             {
-                "styles":"m-5 rounded-xl w-[350px] h-[500px]",
+            
             "photo":"/img/vehicule3.jpg"
             } 
         ]
 
     },
     
+    
+    
     {
         "id":6,
-        "cover":"/img/natureenville2.jpg",
-        "titleGallery":"nature en ville",
-        "pictures": [
-            {"styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
-            "photo":"/img/natureenville3.jpg"
-            },
-            {"styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
-            "photo":"/img/natureenville2.jpg"
-            },
-            {
-                "styles":"m-5 rounded-xl w-[350px] h-[500px]",
-                "photo":"/img/natureenville4.jpg"
-                }
-        ]
-
-    },
-    
-    {
-        "id":7,
-        "cover":"/img/message1.jpg",
-        "titleGallery":"message",
+        "cover":"/img/portrait1.jpg",
+        "titleGallery":"portrait",
         "pictures": [
             
             {
-            "styles":"m-5 rounded-xl w-[500px] h-[350px]",
-            "photo":"/img/message2.jpg"
-            },
-            {
-            "styles":"m-5 rounded-xl w-[350px] h-[500px]",
-            "photo":"/img/message1.jpg"
-            }
             
-        ]
-
-    },
-    
-    {
-        "id":8,
-        "cover":"/img/bazar1.jpg",
-        "titleGallery":"bazar",
-        "pictures": [
-            {
-                "styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
-            "photo":"/img/bazar1.jpg"
+            "photo":"/img/portrait1.jpg"
             },
             {
-            "styles":"m-5 rounded-xl w-[350px] h-[350px] md:w-[500px]",
-            "photo":"/img/bazar2.jpg"
+                
+                "photo":"/img/portrait3.jpg"
+            },
+            {
+                
+                "photo":"/img/portrait4.jpg"
             }
             
         ]

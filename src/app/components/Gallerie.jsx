@@ -9,9 +9,9 @@ const router = useRouter()
 
 return (
     
-    <div className="mx-auto  mt-8 justify-center flex flex-col  ">
-      <h2 className=" text-center text-2xl mt-5 mb-10 sm:text-3xl sm:mb-9 md:mb-14 md:text-4xl lg:mb-20">Visitez mes galleries</h2>
-      <div className="drop-shadow-xl lg:flex lg:flex-row lg:flex-wrap lg:justify-around xl:flex-wrap xl:max-w-[1024px] xl:mx-auto 2xl:max-w-[1500px]">
+    <div className="mx-auto mt-8 justify-center flex flex-col  ">
+      <h2 className="font-extrabold rounded-xl text-center text-2xl mt-5 mb-10 sm:text-3xl sm:mb-9 md:mb-14 md:text-4xl lg:mb-20">Visitez mes galleries</h2>
+      <div className="drop-shadow-xl  lg:flex lg:flex-row lg:flex-wrap lg:justify-around xl:flex-wrap xl:max-w-[1024px] xl:mx-auto 2xl:max-w-[1500px]">
         {data.map((item)=>(
 <div className="relative mb-4 gap-5 sm:mb-6 ">
             <Image 

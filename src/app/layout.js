@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={anuphan.className}>
-      <body className="">
+      <body className="max-w-[1536px] mx-auto">
         <header className="w-[90%] mx-auto flex flex-col justify-center xl:mt-5">
           <Header />
         </header>
