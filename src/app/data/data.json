@@ -25,26 +25,26 @@
     },
     {
         "id":2,
-        "cover":"/img/flou2.jpg",
+        "cover":"/img/flou2.webp",
         "titleGallery":"flou",
         "pictures": [
             {
-            "photo":"/img/flou1.jpg"
+            "photo":"/img/flou1.webp"
             },
             {
-            "photo":"/img/flou2.jpg"
+            "photo":"/img/flou2.webp"
             },
             { 
             "photo":"/img/flou3.jpg"
             },
             {
-            "photo":"/img/flou4.jpg"
+            "photo":"/img/flou4.webp"
             },
             { 
             "photo":"/img/flou5.jpg"
             },
             { 
-            "photo":"/img/flou6.jpg"
+            "photo":"/img/flou6.webp"
             }
         ]
 
