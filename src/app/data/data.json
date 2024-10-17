@@ -92,12 +92,12 @@
     },    
     {
         "id":5,
-        "cover":"/img/vehicule2.jpg",
+        "cover":"/img/vehicule1.webp",
         "titleGallery":"véhicules",
         "pictures": [
             {
             
-            "photo": "/img/vehicule1.jpg"
+            "photo": "/img/vehicule1.webp"
             },
             {
             
