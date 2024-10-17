@@ -9,39 +9,42 @@ const anuphan = Anuphan({
 
 export const metadata = {
   title: "Marienka photographies",
-  description: "Galleries de photographies - Venez faire un tour",  openGraph: {
-    title:"Marienka photographies",
-    description:"Galleries de photographies - Venez faire un tour",
-    url:"https://mastodon.social/@Annouck",
-    siteName:"Marienka photographies",
-    images:[
+  description: "Galleries de photographies - Venez faire un tour",
+  openGraph: {
+    title: "Marienka photographies",
+    description: "Galleries de photographies - Venez faire un tour",
+    url: "https://mastodon.social/@Annouck",
+    siteName: "Marienka photographies",
+    images: [
       {
-        url:"/img/jordan-whitfield-qODM8pfwRO4-unsplash.jpg",
-        width:1260,
-        height:800,
-      }
+        url: "/img/jordan-whitfield-qODM8pfwRO4-unsplash.jpg",
+        width: 1260,
+        height: 800,
+      },
     ],
-    locale:"French",
+    locale: "French",
     // name: "mastodon",
     // image: "/img/marienka.jpg",
     // description:"Lien vers mon compte Mastodon",
     // url:"https://mastodon.social/@Annouck"
-    
-  }
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={anuphan.className}>
       <body className="max-w-[1536px] mx-auto">
-        <header role="banner" aria-hidden="true" className="w-[90%] mx-auto flex flex-col justify-center xl:mt-5">
+        <header
+          role="banner"
+          className="w-[90%] mx-auto flex flex-col justify-center xl:mt-5"
+        >
           <Header />
         </header>
-        <main role="main" aria-hidden="true" className="w-[90%] mx-auto">
-        {children}
+        <main role="main" className="w-[90%] mx-auto">
+          {children}
         </main>
-        <footer aria-hidden="true" className="flex flex-col items-center">
-        <Footer />
+        <footer className="flex flex-col items-center">
+          <Footer />
         </footer>
       </body>
     </html>
