@@ -25,7 +25,7 @@ if ({params} )
     src={pic.photo}
     alt="photo de la gallerie" 
     width={500}
-    height={500}
+    height={450}
     style={{objectFit:"contain"}}
     sizes="100vw"
  />
