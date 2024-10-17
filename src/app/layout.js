@@ -8,8 +8,26 @@ const anuphan = Anuphan({
 });
 
 export const metadata = {
-  title: "Marienka",
-  description: "Photographies inutiles",
+  title: "Marienka photographies",
+  description: "Galleries de photographies - Venez faire un tour",  openGraph: {
+    title:"Marienka photographies",
+    description:"Galleries de photographies - Venez faire un tour",
+    url:"https://mastodon.social/@Annouck",
+    siteName:"Marienka photographies",
+    images:[
+      {
+        url:"/img/jordan-whitfield-qODM8pfwRO4-unsplash.jpg",
+        width:1260,
+        height:800,
+      }
+    ],
+    locale:"French",
+    // name: "mastodon",
+    // image: "/img/marienka.jpg",
+    // description:"Lien vers mon compte Mastodon",
+    // url:"https://mastodon.social/@Annouck"
+    
+  }
 };
 
 export default function RootLayout({ children }) {

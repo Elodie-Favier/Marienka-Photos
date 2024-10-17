@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Home() {
   const router = useRouter()
-  console.log(router)
+  
   return (
     <>
     <section id="top" className="relative h-[300px] mx-auto min-w-96 flex justify-center sm:h-[500px] lg:h-[700px]">
@@ -16,6 +16,7 @@ src="/img/jordan-whitfield-qODM8pfwRO4-unsplash.jpg"
 alt="Photo de Jordan Whitfield sur Unsplash"
 quality={100}
 fill
+priority={false}
 sizes="100vw"
 style={{ objectFit: "contain" }}
 />
