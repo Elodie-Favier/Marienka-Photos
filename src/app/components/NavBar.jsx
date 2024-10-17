@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function NavBar() {
     return (
-      <nav className="  w-1/2 2xl:w-1/3">
+      <nav role="navigation" className="  w-1/2 2xl:w-1/3">
         <ul className="flex flex-row text-xl justify-around  sm:text-3xl sm:mt-6  lg:mb-10 ">
           <li><Link href="/" className="hover:font-bold hover:text-red-600 hover:drop-shadow-2xl">Accueil</Link></li>
           

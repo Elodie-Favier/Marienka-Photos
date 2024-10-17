@@ -34,13 +34,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={anuphan.className}>
       <body className="max-w-[1536px] mx-auto">
-        <header className="w-[90%] mx-auto flex flex-col justify-center xl:mt-5">
+        <header role="banner" aria-hidden="true" className="w-[90%] mx-auto flex flex-col justify-center xl:mt-5">
           <Header />
         </header>
-        <main className="w-[90%] mx-auto">
+        <main role="main" aria-hidden="true" className="w-[90%] mx-auto">
         {children}
         </main>
-        <footer className="flex flex-col items-center">
+        <footer aria-hidden="true" className="flex flex-col items-center">
         <Footer />
         </footer>
       </body>
