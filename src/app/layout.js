@@ -13,7 +13,7 @@ export const metadata = {
   openGraph: {
     title: "Marienka photographies",
     description: "Galleries de photographies - Venez faire un tour",
-    url: "https://mastodon.social/@Annouck",
+    url: "https://marienka-photos.vercel.app/",
     siteName: "Marienka photographies",
     images: [
       {
